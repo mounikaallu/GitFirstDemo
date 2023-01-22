@@ -32,10 +32,7 @@ public class GitFirstController {
 		return "Hello World4";
 	}
    @GetMapping("/api/hello5")
-	
-	
-	public String HelloApi5() {
-		return "Hello World5";
-	}
-
+  public String HelloApi5() {
+	  return "Hello World5";
+  }
 }
