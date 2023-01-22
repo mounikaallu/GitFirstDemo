@@ -12,6 +12,12 @@ public class GitFirstController {
 	public String HelloApi() {
 		return "Hello World";
 	}
+@GetMapping("/api/hello2")
+	
+	
+	public String HelloApi2() {
+		return "Hello World2";
+	}
 	
 
 }
